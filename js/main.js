@@ -8,3 +8,12 @@
         }
     };
 }());
+
+//Burger handler
+
+(function (){
+    const burgerItem = document.querySelector('.burger');
+    burgerItem.addEventListener('click', () => {
+        console.log(1);
+    });
+})();
